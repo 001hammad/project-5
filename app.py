@@ -41,7 +41,7 @@ def decrypt_data(encrypted_text):
 # Streamlit App
 st.title("🔐 Secure Data Vault")
 
-menu = ["Home", "Register", "Login", "Store Data", "Retrieve Data", "Delete My Data"]
+menu = [ "Register", "Login", "Store Data", "Retrieve Data", "Delete My Data"]
 choice = st.sidebar.selectbox("Navigation", menu)
 
 if "logged_in_user" not in st.session_state:
